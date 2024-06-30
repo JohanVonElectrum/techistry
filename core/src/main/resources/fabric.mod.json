@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "techistry-core",
+    "version": "${version}",
+    "name": "techistry-core",
+    "description": "",
+    "authors": [],
+    "contact": {},
+    "license": "All-Rights-Reserved",
+    "icon": "assets/techistry-core/icon.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [
+        "techistry-core.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
